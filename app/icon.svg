@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="harvestGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#354B32" />
+      <stop offset="100%" stop-color="#243322" />
+    </linearGradient>
+  </defs>
+  <!-- Background circular badge -->
+  <rect width="32" height="32" rx="8" fill="url(#harvestGrad)" />
+  <!-- Sprout and Wheat Stalk in Gold -->
+  <g transform="translate(4, 4)">
+    <!-- Main stem -->
+    <path d="M12 21 C12 15, 12 11, 12 5" stroke="#D69B52" stroke-width="2" stroke-linecap="round" fill="none" />
+    <!-- Center top wheat grain -->
+    <ellipse cx="12" cy="4" rx="1.6" ry="2.8" fill="#E9C378" />
+    <!-- Left wheat grains -->
+    <ellipse cx="9.5" cy="7.5" rx="1.6" ry="2.6" transform="rotate(-30 9.5 7.5)" fill="#D69B52" />
+    <ellipse cx="9.5" cy="12" rx="1.6" ry="2.6" transform="rotate(-30 9.5 12)" fill="#D69B52" />
+    <!-- Right wheat grains -->
+    <ellipse cx="14.5" cy="7.5" rx="1.6" ry="2.6" transform="rotate(30 14.5 7.5)" fill="#E9C378" />
+    <ellipse cx="14.5" cy="12" rx="1.6" ry="2.6" transform="rotate(30 14.5 12)" fill="#E9C378" />
+    <!-- Sprout leaf bottom -->
+    <path d="M12 17 C8 17, 6 13, 7 11 C9 11, 11 14, 12 17 Z" fill="#829477" />
+    <path d="M12 18 C16 18, 18 14, 17 12 C15 12, 13 15, 12 18 Z" fill="#A2B199" />
+  </g>
+</svg>
+
